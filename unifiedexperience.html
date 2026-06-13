@@ -1,0 +1,317 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+	<head>
+		<title>Unified Clinician Experience: Part of Leah M. Bateman's Portfolio</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/init.js"></script>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
+		<div class="pagewrap project">
+		
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="index.html" class="selected">Portfolio</a>
+						<!-- <ul class="dropdown">
+							<li><a href="">Unified Clinician Experience</a>
+							<li><a href="schemabuilder.html">Clinical Decision Support Schema Builder</a></li>
+							<li><a href="draas.html">Disaster Recovery as a Service</a></li>
+							<li><a href="corporatebanking.html">Corporate Banking</a></li>
+							<li><a href="strategicplanning.html">Enterprise Strategic Planning</a></li>
+							<li><a href="internalframework.html">Internal UI Development Framework</a></li>
+						</ul> -->
+					</li>
+					<li><a href="resume.html">Resume</a></li>
+					<li><a href="aboutleah.html">About</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<div class="wrapper style1 first">
+				<article class="container" id="top">
+					<div class="portfolio">
+						<header>
+							<h1>Unified Clinician Experience</h1>
+							<h2>Enhancements to help clinicians work more efficiently</h2>
+							<!-- <h3>Workflow analysis, interaction design</h3> -->
+						</header>
+
+						<img src="images/unifiedexperience/heroblurred.png" class="hero" alt="">
+
+						<h3>The project</h3>
+						<p>Helping <b>clinical professionals work faster and leverage prior knowledge</b> by providing enhanced patient search screens, a patient banner, a navigation system, and a login system to be used across the product suite.</p>
+
+						<h3>The problem</h3>
+						<!--<p>Clinicians want to spend less time on the computer and more time helping their patients. They needed a solution that integrates patient data from multiple sources into a single unified record for each patient so they have a holistic view of the patient’s health history and can provide the highest quality of care.</p> -->
+						<ul class="default">
+							<li>Our products did not feel like part of a unified suite to users, who needed to interact with multiple products to complete their tasks.
+								<ul>
+									<li>Different products had their own versions of the patient search screens and patient banner, so users had to learn each product separately.</li>
+									<li>Users could not move between products quickly; they had to navigate through a highly technical administrative portal.</li>
+								</ul>
+							</li>
+							<li>Because of differing organizational and governmental requirements at customer sites, our out-of-the-box patient search screens and patient banners did not meet all customers’ needs. However, these features were difficult to customize, and some customers spent significant development resources building versions that met their requirements.</li>
+							<li>The existing login system looked outdated, was not customizable or responsive, did not take advantage of modern security features such as two-factor authentication and automatic password expiration, and did not allow users to automatically request their username or a password reset, so users had to go through their service desk to perform these tasks.</li>
+						</ul>
+
+						<h4>Constraints</h4>
+						<ul class="default">
+							<li>Designs had to preserve all existing functionality.</li>
+							<li>The patient search screens had to account for various restrictions on showing data to clinicians, such as patient consent, and the ability to override these restrictions.</li>
+							<li>The patient banner had to meet the UK’s National Health Service (NHS) requirements for patient banners.</li>
+							<li>The navigation system had to scale to include not just our product suite, but third-party applications that users might need to access as part of their workflow.</li>
+							<li>All screens had to be responsive.</li>
+							<li>All screens had to meet WCAG 2.1 AA guidelines.</li>
+							<li>Customers needed to be able to change the look of the new features to match their own branding.</li>
+						</ul>
+
+						<h3>My role</h3>
+						<p>As lead UX designer, I worked with the product manager, front- and back-end developers, QA engineers, technical writer, visual designer, and stakeholders from other product teams.</p>
+
+						<h3>The solution</h3>
+						<p>I designed a patient search system, a patient banner, cross-product navigation, and a login system to help unify the product suite.</p> 
+						<ul class="default">
+							<li>I leveraged the fledgling design system to ensure a unified look and feel across all new features out of the box.</li>
+							<li>We provided an API to allow customers to add their own branding and ensure changes to the look and feel propagated across all new features.</li>
+							<li>The patient search screens and the patient banner included a comprehensive set of fields and display options.</li>
+							<li>I designed a customizable, scalable navigation system that is accessible from the user's current screen.</li>
+							<li>I designed basic and advanced versions of customizable login screens that provide modern security features and allow users to handle their own username and password issues.</li>
+						</ul>
+
+						<h3>Outcome</h3>
+						<p>When I left the project:</p>
+						<ul class="default">
+							<li>The navigation system was complete and had been adopted by several products in the suite. Users can now move between these products easily, without being forced to return to the administrative portal each time they need to switch applications.</li>
+							<li>The login screens had been developed, but had not yet been released. We anticipated that service desks would see a decline in user requests for help with forgotten usernames, password resets, and expired passwords.</li>
+							<li>The patient search and patient banner designs were still under development.</li>
+							<li>Much of this work was done as the UX team was building a design system, and many of the patterns I developed became part of the design system.</li>
+						</ul>
+
+						<hr />
+
+						<h3>Process</h3>
+						<h4>Overall process</h4>
+						<p>The systems were designed separately, but the design process for each system included most of the following steps. For details on the process for each system, see below.</p>
+						<ul class="default">
+							<li>Research and requirements gathering
+							<ul>
+								<li>Competitive analysis</li>
+								<li>User research</li>
+								<li>Stakeholder research</li>
+							</ul></li>
+							<li>Workflow analysis</li>
+							<li>Design workshop</li>
+							<li>Initial mockups for desktop, tablet, and phone</li>
+							<li>Clinical and hallway reviews</li>
+							<li>Second round of mockups, including visual design</li>
+							<li>Clinical, hallway, and patient safety reviews</li>
+							<li>Iteration and reviews</li>
+							<li>Final prototype</li>
+							<li>Design specification</li>
+							<li>UX and accessibility reviews of implementation</li>
+						</ul>
+
+						<h4>Process notes: Cross-product navigation</h4>
+
+						<div>
+							<div class="row">
+								<div class="thirds">
+									<img src="images/unifiedexperience/navsketch1.png" class="non-hero" alt="">
+								</div>
+								<div class="thirds">
+									<img src="images/unifiedexperience/navsketch2.png" class="non-hero" alt="">
+								</div>
+								<div class="thirds">
+									<img src="images/unifiedexperience/navsketch3.png" class="non-hero" alt="">
+								</div>
+							</div>
+							<div class="row">
+								<div class="thirds">
+									<img src="images/unifiedexperience/navsketch4.png" class="non-hero" alt="">
+								</div>
+								<div class="thirds">
+									<img src="images/unifiedexperience/navsketch5.png" class="non-hero" alt="">
+								</div>
+								<div class="thirds">
+									<img src="images/unifiedexperience/navsketch6.png" class="non-hero" alt="">
+								</div>
+							</div>
+						</div>
+
+						<ul class="default">
+							<li>I started by <span class="bold">leading a group design workshop</span> with the development and UX teams to socialize the project, generate ideas, and build consensus around a direction. We agreed that a top header, utility menu, and left navigation bar would be most appropriate given space issues.</li>
+							<li>I worked with our visual designer to <span class="bold">prototype the header and left navigation bar<span class="bold">, including a feature to allow users to select their default application and an option for customers to include second-level items in the left menu.</li>
+							<li>After the design went through several rounds of <span class="bold">hallway and clinical reviews</span>, I <span class="bold">created a design specification</span> for the developers.</li>
+							<li>I also <span class="bold">performed accessibility testing</span> on the implementation and supported the developers as they remediated accessibility issues.</li>
+						</ul>
+
+						<h4>Process notes: Patient search</h4>
+
+						<div>
+							<div class="row">
+								<div class="thirds">
+									<img src="images/unifiedexperience/workflowdiagram.png" class="non-hero" alt="">
+									<div class="caption">
+										<p>Patient search workflow</p>
+									</div>
+								</div>
+								<div class="thirds">
+									<img src="images/unifiedexperience/searchdesktop.png" class="non-hero" alt="">
+									<div class="caption">
+										<p>Patient search (desktop)</p>
+									</div>
+								</div>
+								<div class="thirds">
+									<img src="images/unifiedexperience/searchresultsdesktop.png" class="non-hero" alt="">
+									<div class="caption">
+										<p>Patient search results (desktop)</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="thirds">
+									<img src="images/unifiedexperience/searchtabletportrait.png" class="non-hero" alt="">
+									<div class="caption">
+										<p>Patient search (tablet)</p>
+									</div>
+								</div>
+								<div class="thirds">
+									<img src="images/unifiedexperience/searchresultstabletlandscape.png" class="non-hero" alt="">
+									<div class="caption">
+										<p>Patient search results (tablet)</p>
+									</div>
+								</div>
+								<div class="thirds">
+									<img src="images/unifiedexperience/searchresultsphone.png" class="non-hero" alt="">
+									<div class="caption">
+										<p>Patient search results (phone)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<ul class="default">
+							<li>I <span class="bold">interviewed</span> the product manager and other stakeholders to determine issues with the existing search, as well as <span class="bold">reviewed patient search features from customers and competitors</span>.</li>
+							<li>I then worked with the development team to <span class="bold">analyze and optimize the existing workflow</span>, particularly around data restrictions; I reviewed the resulting flow with in-house clinicians.</li>
+							<li>Once the workflow had been approved, I <span class="bold">built high-fidelity prototypes of basic search, advanced search, and search results screens</span> that went through extensive <span class="bold">clinical and patient safety reviews</span>.</li>
+							<li>I also created a <span class="bold">design specification</span> for the developers.</li>
+						</ul>
+
+						<h4>Process notes: Patient banner</h4>
+
+						<!-- <div class="container">
+							<div class="row">
+								<div class="thirds">
+									<img src="images/unifiedexperience/workflowdiagram.png" class="non-hero" alt="">
+									<div class="caption">
+										<p>Patient search workflow</p>
+									</div>
+								</div>
+								<div class="thirds">
+									<img src="images/unifiedexperience/searchdesktop.png" class="non-hero" alt="">
+									<div class="caption">
+										<p>Patient search (desktop)</p>
+									</div>
+								</div>
+								<div class="thirds">
+									<img src="images/unifiedexperience/searchresultsdesktop.png" class="non-hero" alt="">
+									<div class="caption">
+										<p>Patient search results (desktop)</p>
+									</div>
+								</div>
+							</div>
+						</div> -->
+
+						<ul class="default">
+							<li>The patient banner had to comply with the UK’s National Health Service (NHS) requirements for patient banners. After <span class="bold">reviewing these requirements and numerous examples</span> from customers and competitors, I worked with our visual designer to <span class="bold">create mockups and prototypes</span> of the patient banner, including edge cases and mobile versions.</li>
+							<li>The mockups went through several rounds of <span class="bold">hallway, clinical, and patient safety reviews</span>.</li>
+							<li>I also provided a <span class="bold">design specification</span> for the developers, worked with them on the <span class="bold">customization API</span>, performed <span class="bold">accessibility testing</span> on the implementation, and supported the developers as they remediated accessibility issues.</li>
+						</ul>
+
+						<h4>Process notes: Login systems</h4>
+
+<!--							<div class="container">
+							<div class="row">
+								<div class="thirds">
+									<img src="images/unifiedexperience/workflowdiagram.png" class="non-hero" alt="">
+									<div class="caption">
+										<p>Patient search workflow</p>
+									</div>
+								</div>
+								<div class="thirds">
+									<img src="images/unifiedexperience/searchdesktop.png" class="non-hero" alt="">
+									<div class="caption">
+										<p>Patient search (desktop)</p>
+									</div>
+								</div>
+								<div class="thirds">
+									<img src="images/unifiedexperience/searchresultsdesktop.png" class="non-hero" alt="">
+									<div class="caption">
+										<p>Patient search results (desktop)</p>
+									</div>
+								</div>
+							</div>
+						</div> -->
+
+						<ul class="default">
+							<li>I <span class="bold">gathered requirements from stakeholder teams</span> and worked with the product manager to <span class="bold">develop a workflow analysis</span>.</li>
+							<li>Once the workflow analysis was complete, I <span class="bold">created initial mockups</span> of the screens and then worked with our visual designer to <span class="bold">create a high-fidelity prototype</span>.</li>
+							<li>I also <span class="bold">performed accessibility testing on the implementation</span> and provided the results to the development team.</li>
+						</ul>
+
+						<div>
+								<img src="images/unifiedexperience/hallwayreviews.png" class="hero" alt="Photos from hallway reviews">
+								<div class="caption">
+									<p>Hallway review photos</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</article>
+			</div>
+
+		<!-- Prev/Next -->
+			<div class="wrapper style3">
+				<div class="previousnext">
+					<a href="draas.html" class="alignleft">< Previous</a>
+					<a href="schemabuilder.html" class="alignright">Next ></a>
+				</div>
+			</div>
+
+		<!-- Contact -->
+			<div class="wrapper style4">
+				<article id="contact" class="container 75%">
+						<div class="12u">
+							<h3><a href="https://www.linkedin.com/pub/leah-bateman/0/380/a92" target="_blank">Find me on LinkedIn</a></h3>
+						</div>
+					</div>
+				</article>
+			</div>
+		
+		<!-- Footer -->	
+			<div class="wrapper style5">
+				<footer>
+					<ul id="copyright">
+						<li>&copy; Leah M Bateman. All rights reserved.</li><li>Design based on <a href="http://html5up.net">HTML5 UP</a>.</li>
+					</ul>
+				</footer>
+			</div>
+			
+		</div>
+
+	</body>
+</html>
